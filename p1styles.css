@@ -1,0 +1,425 @@
+/********f************
+    
+    Project 1 Stylesheet
+    Name:Arrow Inthirath
+    Date:Oct 15, 2023
+    Description:
+
+*********************/
+
+html,
+body,
+section,
+p,
+header,
+nav,
+footer,
+div,
+article,
+aside,
+ol,
+ul,
+li,
+h1,
+h6 {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 28px;
+}
+
+header a {
+    justify-content: space-between;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: auto;
+}
+
+/* Style the search container */
+.search-container {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex; /* Use flexbox to align input and button horizontally */
+    justify-content: space-between;
+}
+
+/* Style the search input field */
+.search-bar {
+    padding: 5px; /* Add padding for spacing and appearance */
+    border: 1px solid #ccc; /* Add border for better styling */
+    margin-right: 10px; /* Add margin to create space between input and button */
+}
+}
+
+/* Style the search button */
+.search-button {
+    padding: 5px 10px; /* Corrected padding values */
+    background-color: #E6E6E6; /* Background color for the button */
+    color: black; /* Text color for the button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.nav {
+	position: relative;
+	top: 10px;
+}
+
+.nav a {
+	text-decoration: none;
+}
+
+.title {
+    background-image: url(images/headerBackground.jpg);
+    background-size: cover; /* Set the background size to 'cover' to make it fit */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #e6e6e6;
+    padding: 200px;
+}
+
+.title h1{
+	font-size: 80px;
+	position: absolute;
+	left:50px;
+	top: 90px;
+}
+
+.title h2{
+	font-size: 40px;
+	position: absolute;
+	right: 50px;
+	top: 380px;
+}
+
+
+div#container {
+	width: 810px;
+	background-color: #fff;
+	border-radius: 8px;
+	margin: 10px auto;
+	padding: 10px;
+	box-shadow: 1px 1px 2px #a2a2a2, -1px -1px 2px #a2a2a2;
+}
+
+nav {
+	font-size: 25px;
+  	background-color: #808080;
+  	display: flex;
+ 	justify-content: center;
+  	align-content: center;
+  	background: linear-gradient(to top, #1674a7, #80bcef)
+}
+
+.navbar_list {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Display items in a horizontal line */
+    justify-content: center; /* Center the items horizontally */
+    padding: 0;
+}
+
+.navbar_list li {
+    margin-right: 10px; /* Add spacing between menu items */
+}
+
+.navbar_list a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color for links */
+}
+
+/* Change link styles on hover */
+.navbar_list a:hover {
+    text-decoration: underline; /* Underline links on hover */
+    color: yellow; /* Change text color on hover */
+}
+
+
+.about-section {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.breadcrumb {
+    text-align: center;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    display: inline;
+}
+
+
+.breadcrumbs a {
+    color: #007BFF; /* blue link color */
+    text-decoration: none; /* no underline */
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
+.breadcrumbs span {
+    color: #333; /* current page; slightly darker text color */
+}
+
+
+article .content {
+	display: inline;
+	vertical-align: top;
+}
+
+article {
+    flex: 1;
+    max-width: 70%; /* Adjust the max-width to your preference */
+    margin: 0 auto; /* Add this to center the article within the flex container */
+    padding: 0px;
+}
+
+article h1 {
+	font-size: 30px;
+	margin-top: 30px ;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black; /* Add a top border for each list item */
+}
+
+
+article p {
+	margin: 10px 0;
+}
+
+article a {
+	display: flex;
+	font-size: 20px;
+	padding: 10px;
+	text-decoration: none; /* Remove underlines from links */
+    color: #4b9bc2; /* Set the link color to blue */
+    font-weight: bold; /* Make the text inside links bold */
+}
+
+aside {
+    max-width: 20%;
+    padding: 0;
+    margin-left: 20px;
+}
+
+aside div {
+	border-top: 1px solid black; /* Add a top border for each list item */
+	padding: 10px;
+}
+
+aside div img,
+aside div p {
+    display: inline;
+    vertical-align: middle; /* Adjust the vertical alignment as needed */
+    margin-right: 10px; /* Add spacing between the inline elements */
+}
+
+/* Style the list */
+
+.list {
+	list-style-type: disc;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 30px ;
+
+}
+
+
+/* Style each list item */
+.nav-list {
+	list-style-type: disc;
+    border-top: 0px solid black; /* Add a top border for each list item */
+    padding: 5px 0; /* Add padding to space out the items vertically */
+    background: linear-gradient(to top, #ccc, #fff); /* Add a linear gradient background (grey to white) */
+}
+
+.list li {
+	list-style-type: disc;
+    border-top: 0px solid black; /* Add a top border for each list item */
+    padding: 5px 0; /* Add padding to space out the items vertically */
+    background: linear-gradient(to top, #ccc, #fff); /* Add a linear gradient background (grey to white) */
+}
+
+/* Style the links inside list items */
+.list li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: black; /* Set link color to black */
+}
+
+.list li:before {
+    content: "|"; /* Add the divider content (you can use any symbol you like) */
+    position: absolute; /* Position the pseudo-element */
+    left: -10px; /* Adjust the position of the divider to the left (adjust as needed) */
+}
+
+.nasa-logo {
+	float: right;
+}
+
+.content {
+    border: 0.5px solid #ccc; /* Add a border with a 1px solid line */
+    padding: 0px; /* Add padding to create space around the content */
+    text-align: right; /* Move the content to the right */
+    position: relative; /* Position the content relative to this div */
+    float: right; /* Move the div to the bottom right */
+    max-width: 21%; /* Limit the width of this div */
+}
+
+/* Style for the image */
+.content img {
+    border: 1px solid #ccc; /* Add a border to the image with a 1px solid line */
+    padding: 1px; /* Add padding to create space around the image */
+    text-align: right; /* Move the image to the right */
+    display: block; /* Ensure the image is treated as a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 150%; /* Ensure the image doesn't exceed the container's width */
+}
+
+/* Style for the paragraph */
+.content p {
+	text-align: left;
+	margin: 10px;
+}
+
+
+.footer-content{
+	text-align: center;
+}
+
+/* Make the footer list horizontal */
+.footer-content ul {
+    list-style: none; /* Remove default list bullet points */
+}
+
+.footer-content ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 10px; /* Add spacing between list items */
+}
+
+.copyright{
+	color: black;
+	font-weight: bold;
+}
+
+.text {
+	color: #1b82bb;
+}
+
+.text-2 {
+	color: #8E8E8E;
+}
+
+@media (max-width: 768px) {
+
+    /* Simplify header and adjust padding */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 5px;
+    }
+
+    header img {
+        position: static;
+        margin-bottom: 10px;
+        width: 120px;
+    }
+
+    .search-container {
+        position: static;
+        top: auto;
+        right: auto;
+        margin-top: 10px;
+    }
+
+    /* Adjust title styles */
+    .title {
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+    .title h1, .title h2 {
+        position: static;
+        font-size: 36px; 
+        left: auto;
+        top: auto;
+    }
+
+    .title h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    /* Adjust navigation styles */
+    nav {
+        font-size: 18px;
+    }
+
+    .navbar_list {
+        flex-wrap: wrap; 
+        gap: 10px; 
+    }
+
+    .navbar_list li {
+        margin: 5px;
+    }
+
+    /* Adjust main content styles */
+    .about-section, .about-us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article, aside {
+        max-width: 100%;
+        margin: 15px 0;
+    }
+
+    /* Adjust sidebar styles */
+    aside {
+        margin-left: 0;
+    }
+
+    /* Adjust image in the content */
+    .content img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust footer */
+    .footer-content ul li {
+        margin: 0 5px;
+    }
+
+    /* Adjust text styles */
+    .text, .text-2 {
+        font-size: 16px;
+    }
+}
+
