@@ -28,8 +28,9 @@ h6 {
 }
 
 body {
-	background-color: white;
-	font-family: Verdana, sans-serif;
+    background-color: #ffffff; /* Use a pure white background */
+    font-family: Verdana, sans-serif;
+    color: #333; /* Darker text color for better contrast */
 }
 
 header {
