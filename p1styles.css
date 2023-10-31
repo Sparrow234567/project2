@@ -222,12 +222,7 @@ article p {
 }
 
 article a {
-	display: flex;
-	font-size: 20px;
-	padding: 10px;
-	text-decoration: none; /* Remove underlines from links */
-    color: #4b9bc2; /* Set the link color to blue */
-    font-weight: bold; /* Make the text inside links bold */
+	text-decoration: none;
 }
 
 aside {
@@ -338,11 +333,20 @@ aside div p {
 }
 
 .text {
-	color: #1b82bb;
+	display: flex;
+	font-size: 20px;
+	padding: 10px;
+	text-decoration: none; /* Remove underlines from links */
+    color: #4b9bc2; /* Set the link color to blue */
+    font-weight: bold; /* Make the text inside links bold */
 }
 
 .text-2 {
-	color: #8E8E8E;
+	color: #595959;
+}
+
+.text-3 {
+	text-decoration: none;
 }
 
 @media (max-width: 768px) {
