@@ -221,10 +221,6 @@ article p {
 	margin: 10px 0;
 }
 
-article a {
-	text-decoration: none;
-}
-
 aside {
     float: left; /* Add this line to make the aside element float to the left */
     width: 20%; /* Adjust the width to your preference */
@@ -342,7 +338,7 @@ aside div p {
 }
 
 .text-2 {
-	color: #474747;
+	color: #000000;
 }
 
 .text-3 {
